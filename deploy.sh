@@ -1,6 +1,6 @@
 
 #!/bin/bash
-docker build -t chins/sample-node .
+#docker build -t chins/sample-node .
 docker push chins/sample-node
 
 ssh -i ~/.ssh/docker-chinmay.pem deploy@54.210.59.122 << EOF
